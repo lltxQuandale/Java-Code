@@ -1,0 +1,21 @@
+public class Student{
+    public void Student(String x, String y) { 
+       System.out.println(x);
+       System.out.println(y);
+        
+    }
+    
+    public void Student(String x, String y, String z){
+        System.out.println(x);
+        System.out.println(y);
+        System.out.println(z);
+    }
+    
+       
+    
+    public static void main(String args[]){
+        Student s1 = new Student();
+     
+        s1.Student("Issac Quan","Jacob Halter", "Nate Mc");
+        
+    }
