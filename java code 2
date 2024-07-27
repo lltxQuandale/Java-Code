@@ -1,0 +1,28 @@
+public class Main{
+    
+    
+    
+    public static class Chair{
+        int legs;
+        String wood;
+        String type;
+        
+        public Chair(int legs, String wood, String type){
+            this.legs = legs;
+            this.wood = wood;
+            this.type = type;
+
+        
+        }
+    }
+
+    
+    public static void main (String[] args){
+        Chair c1 = new Chair(4,"Oak","DinnerChair" );
+        System.out.println("legs: " + c1.legs);
+        System.out.println("wood type: " + c1.wood);
+        System.out.println("type of chair: " + c1.type);
+            
+    }    
+        
+}
