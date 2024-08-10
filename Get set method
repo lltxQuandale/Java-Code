@@ -1,0 +1,38 @@
+public class Main{
+    
+    public static class Animal{
+        String name;
+        int age;
+        String speices;
+        int legs;
+        
+    public Animal(String name, int age, String speices, int legs){
+        this.name = name;
+        this.age = age;
+        this.speices = speices;
+        this.legs = legs;
+        }
+        public String getspecies(){
+            return this.speices;
+            
+        }
+        public String getname(){
+            return this.name;
+        }
+        public int getage(){
+            return this.age;
+        }
+        public int getlegs(){
+            return this.legs;
+        }
+    
+    }
+    public static void main (String [] args){
+        Animal tiger = new Animal("Joe", 15, "Tiger", 4);
+        System.out.println("Speices: " + tiger.getspecies( ));
+        System.out.println("Name: " + tiger.getname());
+        System.out.println("Age: " + tiger.getage());
+        System.out.println("legs: " + tiger.getlegs());
+    }
+    
+}
