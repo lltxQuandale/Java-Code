@@ -1,0 +1,56 @@
+public class Main{
+    
+    public static class Animal{
+        String name;
+        int age;
+        String species;
+        int legs;
+        
+    public Animal(String name, int age, String species, int legs){
+        this.name = name;
+        this.age = age;
+        this.species = species;
+        this.legs = legs;
+    }
+    public String getspecies(){
+        return this.species;
+    }
+    public String getname(){
+        return this.name;
+    }
+    public int getage(){
+        return this.age;
+    }
+    public int getlegs(){
+        return this.legs;
+    }
+    public void setspecies(String newspecies){
+        this.species = newspecies;
+        
+    }
+    public void setname( String newname){
+        this.name = newname;
+    }
+    public void setage( int newage){
+        this.age = newage;
+    }
+    public void setlegs( int newlegs){
+        this.legs = newlegs;
+    }
+    }
+    public static void main(String [] args){
+        Animal Lion = new Animal("Issac",15,"Lion", 4);
+        Lion.setspecies("Tiger");
+        System.out.println("Species: " + Lion.getspecies());
+        Lion.setname("Bob");
+        System.out.println("Name: " + Lion.getname());
+        Lion.setage(7);
+        System.out.println("age: " + Lion.getage());
+        System.out.println("Species: " + Lion.getspecies());
+        System.out.println("Name: " + Lion.getname());
+        System.out.println("Age: " + Lion.getage());
+        System.out.println("Legs: " + Lion.getlegs());
+    
+    }
+    
+}
